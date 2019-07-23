@@ -1,0 +1,25 @@
+/* cheat-sheet.css */
+
+/*bosy is a selector to the tag body to hange the styling
+ of body section on my html*/
+
+body {
+/*backround is property to cange the backround color of the 
+lement. Orange is the value of the property */
+	background: magenta;
+/* we can use 140 color names https://www.w3schools.com/co
+lors/colors_names.asp*/
+}
+/*heading is a class selector to add 
+styling to several elements on my html file*/
+.heading{
+/* color property is to change the text color*/
+color:red;
+
+}
+/* id selector is to style one element on my html page */
+#my_paragraph{
+text-align: right;
+text-decoration: underline;
+font-weight: bold;
+}
