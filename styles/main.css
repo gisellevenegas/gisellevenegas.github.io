@@ -1,34 +1,44 @@
 /*styles/main.css*/
 
 body{
-background: black;#
-h1
-{color: white;
+background: black;
+font-family: 'Inconsolata', monospace;
+color: white;
+}
+h1{color: white;
 }
 
-ol{font-weight: bold;color: white
+ol{font-weight: bold;
+}
+li	{
+	color: white
 }
 
 a{
 
-	text-decoration: none;color:black
+	text-decoration: none;color:white
 }
 	#my_bar{
 		border-style: solid;
 		border-color:black;
 		border-radius: 15px;
-		background: white;
+		background: black;
+		color: white;
 		}
 	#my_name{
+		color: white;
 		text-align: center;
+		text-decoration: underline;
 	}
 
 	p{
 		text-align: center;
 	}
-	.margin_borders{
-		border-style: dashed;
-		border-color: white;
-			margin-top:100px;
-			margin-left:100px;
-			margin-right:100px;
+	.paragraph{
+		border-style:solid;
+		border-radius: 15px;
+		margin: 20px 25px 30px 30px;
+		color: white;
+
+	}
+	
