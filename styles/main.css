@@ -2,10 +2,13 @@
 
 body{
 background: black;
-font-family: 'Inconsolata', monospace;
+font-family: 'Roboto Mono', monospace;
 color: white;
 }
 h1{color: white;
+}
+h5{
+	color: white;
 }
 
 ol{font-weight: bold;
@@ -41,4 +44,36 @@ a{
 		color: white;
 
 	}
+	#img-float{
+	float: left;
+	margin: 30px;
+	width: 450px;
+}
+
+#cake {
+	border:15px solid pink;
+	padding: 30px;
+	margin: 20px;
+}
 	
+	.p-class{
+		margin: 15px;
+		padding:15px;
+	}
+	#div-float{
+		overflow: auto;
+		border: solid 5px;
+	}
+	@media only screen and (max-width: 600px) {
+		#img-float{
+			float: none;
+			margin: 30px;
+			width: 300px;
+		}
+	}
+	#div-float{
+		overflow: auto;
+		border: solid 5px pink;
+		background: black;
+	}
+}
